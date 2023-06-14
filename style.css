@@ -10,7 +10,9 @@
   
 #display{
     background-color: #fff;
-    width: auto;
+    width: 180px;
+    padding: 8px;
+    border-radius: 20px;
   }
   
   .calculator input {
@@ -24,6 +26,7 @@
     width: 40px;
     height: 40px;
     margin: 2px;
+    border-radius: 20px;
   }
   
   .keypad {
@@ -31,4 +34,3 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
   }
-  
